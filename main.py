@@ -9,7 +9,7 @@ def add_expense():
     category = input("Enter category: ")
     date = input("Enter date: ")
 
-    expenses.append([amount, category, date, description])
+    expenses.append([amount, category, date])
 
     print("Expense added successfully!")
 
